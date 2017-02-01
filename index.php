@@ -3,6 +3,9 @@
 <head>
 <style type="text/css">
 <!--
+.blablabla {
+	width:200px;
+}
 .chat_wrapper {
     width: 500px;
     margin-right: auto;
