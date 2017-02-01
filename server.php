@@ -3,6 +3,8 @@ $host = 'localhost'; //host
 $port = '9000'; //port
 $null = NULL; //null var
 
+//dsfghvwirbs giksbfgk jdfg kdfhbh dfg dfhgb 
+
 //Create TCP/IP sream socket
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 //reuseable port
@@ -16,6 +18,8 @@ socket_listen($socket);
 
 //create & add listning socket to the list
 $clients = array($socket);
+
+//sdfg bskdhbf gkdjfgn dfjg bk
 
 //start endless loop, so that our script doesn't stop
 while (true) {
